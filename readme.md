@@ -64,7 +64,9 @@ Plot the diagonal singular values:
 *     Run the scd_analysis.py code
 The result
 
-![singular values](/images/singular_values_plot.png)
+Singular values                     |    Cummulatve Singular Values
+:----------------------------------:|:----------------------------------------:
+![singular values](/images/singular_values_plot_1.png) | ![singular values](/images/singular_values_plot.png)
 
 Test for around 90% of the cummulative energy where r = 1200. we get:
 
