@@ -56,7 +56,7 @@ We apply the svd code on this image:
 
 r =5                          |    r =10                         | r=20
 :----------------------------:|:--------------------------------:|:-------------------:
-![r_5](./SVD/images/img_5.png)|![r_10](./SVD/images/img_10.png)  | ![r_20](./SVD/images/img_20.png) 
+![r_5](/images/img_5.png)|![r_10](/images/img_10.png)  | ![r_20](/images/img_20.png) 
 
 
 Plot the diagonal singular values:
