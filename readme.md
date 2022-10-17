@@ -44,7 +44,7 @@ We consder the image of a guy with beautiful landscape behind as shown below Thi
 
 Original                            |     Gray
 :----------------------------------:|:----------------------------------------:
-![landscape](./SVD/images/landscape.jpg) |  ![landscape_gray](./SVD/images/landscape_grey.png)
+![landscape](./SVD/images/landscape.jpg) |  ![landscape_gray](./SVD/images/landscape_gray.png)
 
 
 We apply the svd code on this image:
