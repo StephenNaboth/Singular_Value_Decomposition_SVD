@@ -66,6 +66,8 @@ The result
 ![singular values](/images/singular_values_plot.png)
 
 Test for around 90% of the cummulative energy where r = 1200. we get:
+
+
 ![r_1200](/images/img_1200.png)
 
 
