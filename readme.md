@@ -44,7 +44,7 @@ We consder the image of a guy with beautiful landscape behind as shown below Thi
 
 Original                            |     Gray
 :----------------------------------:|:----------------------------------------:
-![landscape](/SVD/images/landscape.jpg) |  ![landscape_gray](/SVD/images/landscape_gray.png)
+![landscape](/images/landscape.jpg) |  ![landscape_gray](/images/landscape_gray.png)
 
 
 We apply the svd code on this image:
@@ -63,10 +63,10 @@ Plot the diagonal singular values:
 *     Run the scd_analysis.py code
 The result
 
-![singular values](./SVD/images/singular_values_plot.png)
+![singular values](/images/singular_values_plot.png)
 
 Test for around 90% of the cummulative energy where r = 1200. we get:
-![r_1200](./SVD/images/img_1200.png)
+![r_1200](/images/img_1200.png)
 
 
 The above steps can be done in the matlab file. Just by running SVD_1.m
