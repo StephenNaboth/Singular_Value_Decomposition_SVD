@@ -32,6 +32,7 @@ $
 $ Therefore, it is possible to exactly
 represent X using the economy SVD:
 $$
+
 \mathrm{X} = \mathrm{U\Sigma V}^* = \left[\begin{array}{ll}
 \hat{U} & \hat{U}^{\perp}
 \end{array}\right]\left[\begin{array}{c}
@@ -44,7 +45,7 @@ We consder the image of a guy with beautiful landscape behind as shown below Thi
 
 Original                            |     Gray
 :----------------------------------:|:----------------------------------------:
-![landscape](/images/landscape.jpg) |  ![landscape_gray](/images/landscape_gray.png)
+<img src="/images/landscape.jpg" alt="landscape" style="width:400px;"/>|  ![landscape_gray](/images/landscape_gray.png)
 
 
 We apply the svd code on this image:
