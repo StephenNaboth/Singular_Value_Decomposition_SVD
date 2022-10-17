@@ -1,0 +1,4 @@
+# pip or conda install 
+matplotlib
+numpy
+opencv-python
