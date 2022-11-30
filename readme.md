@@ -3,9 +3,10 @@
 The singular value decomposition (SVD) is an important matrix
 factorization technique that provides a numerically stable matrix
 decomposition that can be used for a variety of purposes such as to obtain low-rank approximations to matrices and to perform pseudo-inverses of non-square matrices to find the solution of a system
-of equations $\text{Ax = b}$. 
+of equations $$\text{Ax = b}$$. 
 
 Generally, we are interested in analyzing a large data set $X \in \mathbb{C}^{n\times m}$.
+
 $$
 \mathbf{X}=\left[\begin{array}{cccc}
 \mid & \mid & & \mid \\
@@ -14,16 +15,18 @@ $$
 \end{array}\right]
 $$
 
-For many systems $n \gg m$, resulting in a tall-skinny matrix, as opposed to a short-fat matrix when $n \ll m$. 
+For many systems $$ n \gg m $$, resulting in a tall-skinny matrix, as opposed to a short-fat matrix when $$ n \ll m $$. 
 The SVD is a unique matrix decomposition that exists for every complex valued
-matrix $X \in \mathbb{C}^{n\times m}$:
+matrix $$ X \in \mathbb{C}^{n\times m} $$:
+
 $$
 \mathrm{X} = \mathrm{U\Sigma V}^*
 $$
-where $U  \in \mathbb{C}^{n\times n}$ and $V  \in \mathbb{C}^{m\times m}$ are unitary matrices with orthonormal columns, and $ \mathrm{\Sigma} \in \mathbb{C}^{n\times m} $ is a matrix with real, non-negative entries on the diagonal and
+
+where $$ U  \in \mathbb{C}^{n\times n} $$ and $$ V  \in \mathbb{C}^{m\times m} $$ are unitary matrices with orthonormal columns, and $$ \mathrm{\Sigma} \in \mathbb{C}^{n\times m} $$ is a matrix with real, non-negative entries on the diagonal and
 zeros off the diagonal.
 
-When $n \geq m$, the matrix $\mathrm{\Sigma}$ has at most m non-zero elements on the diagonal, and may be written as
+When $$ n \geq m $$, the matrix $$ \mathrm{\Sigma} $$ has at most m non-zero elements on the diagonal, and may be written as
 $
 \boldsymbol{\Sigma}=\left[\begin{array}{l}
 \hat{\Sigma} \\
